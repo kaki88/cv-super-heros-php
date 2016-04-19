@@ -1,0 +1,263 @@
+
+.menu {
+	background-color: #000000;
+	height: 650px;
+	width: 240px;
+	text-align: left !important; 
+	border: 1px solid white;
+        border-radius: 1px 1px 20px 1px;
+}
+
+.intmenu {
+	margin-left: 5px;
+	margin-top: 30px;
+}
+.couleur {
+padding: 15px;
+text-align: center; 
+}
+.couleurrgb {
+padding: 15px;
+text-align: center; 
+}
+.bouton {
+padding: 15px;
+text-align: center; 
+}
+.fixed {
+  position:fixed;
+  left:-8px;
+  top:20px;
+}
+
+.btn {
+  	 width: 200px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: grey;
+  text-decoration: none;
+}
+.btnn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: red;
+   padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background: blue;
+  text-decoration: none;
+}
+.f0 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond0.png);
+}
+
+.f1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond1.png);
+}
+
+.f2 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond2.png);
+}
+
+.f3 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond3.png);
+}
+
+.f4 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond4.png);
+}
+
+.f5 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background: url(Kickassimg/fond5.png);
+}
+
+.menufond {
+          padding: 10px;
+          width: 200px;
+          background: #ccc;
+          border: 1px solid black;
+		  border-radius: 8px;
+		  text-align: center;
+		  font-weight: bold;
+      }   
+	  
+.menuc {
+          padding: 10px;
+          width: 200px;
+          background: #ccc;
+          border: 1px solid black;
+		  border-radius: 8px;
+		  text-align: center;
+		  font-weight: bold;
+		  margin-top: 120px;
+  }   
+ 
+ .menudivers {
+          padding: 10px;
+          width: 200px;
+          background: #ccc;
+		  border-radius: 8px;
+          border: 1px solid black;
+		  text-align: center;
+		  font-weight: bold;
+		  margin-top: 20px;
+  }   
+
+  .c1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: red;
+}
+
+  .c2 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+  .c3 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: fuchsia;
+}
+	 
+ .c4 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: yellow;
+}	 
+
+ .c5 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: green;
+}	
+ .c6 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: grey;
+}	
+ .c7 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: white;
+}	
+ .c8 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 3px;
+  cursor: pointer;
+  background-color: black;
+}	
+
+ .police {
+  width: 200px;
+  font-size: 16px;
+}
+
+ .listepolice {
+  padding: 15px;
+}
+.fichier {
+	 width: 200px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.fichier:hover {
+  background: grey;
+  text-decoration: none;
+}
+ .font1 {
+  font-family: 'Righteous', cursive;
+}
+ .font2 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+ .font3 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ .font4 {
+  font-family: "Arial Black", Gadget, sans-serif;
+}

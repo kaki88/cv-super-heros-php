@@ -1,0 +1,279 @@
+body {
+	text-align: center;
+	margin-top:150px;
+background: url(Kickassimg/fond0.jpg) no-repeat center center fixed; 
+	}
+	
+p {
+	text-align: left;
+	color:#FFFF00;
+}
+
+html{
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.tout {
+	background-image:url(Kickassimg/fond.png);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 1600px;
+	border-radius:5px;
+	font-size:20px;
+
+}
+
+.marge {
+	margin: 20 20 20 20px;
+}
+
+
+.titreexp {
+	margin-left: 40px;
+    background-color: white;
+    width: 100%;
+	border: 5px dashed black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+	text-shadow: 0 1px 0 #eee,
+             0 2px 0 #e5e5e5,
+             -1px 3px 0 #C8C8C8,
+             -1px 4px 0 #C1C1C1,
+             -2px 5px 0 #B9B9B9,
+             -2px 6px 0 #B2B2B2,
+             -2px 7px 2px rgba(0,0,0, 0.6),
+             -2px 7px 8px rgba(0,0,0, 0.2),
+             -2px 7px 45px rgba(0,0,0, 0.4);
+	font-size:30px;
+	text-align: center;
+	color: #392F2F;
+	font-family: 'Black Ops One', cursive;
+	-ms-transform: rotate(-8deg); 
+    -webkit-transform: rotate(-8deg); 
+    transform: rotate(-8deg);
+}
+
+.toutexp {
+	position: relative;
+	float: left;
+	margin-right:35px;
+	margin-top:90px;
+}
+
+.titre {
+    background-color: white;
+	border: 5px dashed black;
+    width: 800px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+	text-shadow: 0 1px 0 #eee,
+             0 2px 0 #e5e5e5,
+             -1px 3px 0 #C8C8C8,
+             -1px 4px 0 #C1C1C1,
+             -2px 5px 0 #B9B9B9,
+             -2px 6px 0 #B2B2B2,
+             -2px 7px 2px rgba(0,0,0, 0.6),
+             -2px 7px 8px rgba(0,0,0, 0.2),
+             -2px 7px 45px rgba(0,0,0, 0.4);
+	font-size:30px;
+	text-align: center;
+	color: green;
+	font-family: 'Black Ops One', cursive;
+	-ms-transform: rotate(3deg); 
+    -webkit-transform: rotate(3deg); 
+    transform: rotate(3deg);
+}
+
+.toutfor {
+	position: relative;
+	float: right;
+	margin-top:65px;
+	margin-right:29px;
+	-ms-transform: rotate(4deg); 
+    -webkit-transform: rotate(4deg); 
+    transform: rotate(4deg);
+}
+
+.titrecentre {
+    background-color: white;
+    width: 640px;
+	border: 5px dashed black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+	text-shadow: 0 1px 0 #eee,
+             0 2px 0 #e5e5e5,
+             -1px 3px 0 #C8C8C8,
+             -1px 4px 0 #C1C1C1,
+             -2px 5px 0 #B9B9B9,
+             -2px 6px 0 #B2B2B2,
+             -2px 7px 2px rgba(0,0,0, 0.6),
+             -2px 7px 8px rgba(0,0,0, 0.2),
+             -2px 7px 45px rgba(0,0,0, 0.4);
+	font-size:30px;
+	text-align: center;
+	color: purple;
+	font-family: 'Black Ops One', cursive;
+}
+
+.toutcentre {
+	position: relative;
+	float: right;
+	margin-top:40px;
+	margin-right:29px;
+}
+
+.contacte{
+
+	  position:absolute;
+	height:280px;
+	float:left;
+	margin-top:550px;
+	margin-left:575px;
+	padding:5px;
+	width:280px;
+z-index: 100;
+	-ms-transform: rotate(-6deg); 
+    -webkit-transform: rotate(-6deg); 
+    transform: rotate(-6deg);
+}
+
+.contact{
+	color: blue !important;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 22px;
+	font-weight: bold;
+        z-index: 100;
+	
+}
+.pi {
+	  position:absolute;
+	height:280px;
+	float:left;
+	margin-top:480px;
+	margin-left:535px;
+	z-index: 10;
+}
+.po {
+	width: 400px;
+}
+
+.presentation{
+    height: 243px;
+    margin-top: -20px;
+	position:relative;
+	text-align: center;
+	margin-right: 40px;
+	color:#FFFF00;
+	font-family: 'Righteous', cursive;
+	width: 600px;
+	float: right;
+	padding: 5px;
+	 -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.imghautgauche{
+	position:relative;
+	width:140px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.imghaut{
+	position:relative;
+	width:520px;
+	float: right;
+	margin-top: 65px;
+	margin-right: -65px;
+}
+
+.imgbas{
+position:relative;
+	width:900px;
+	margin-top: -99px;
+	border-radius:15px;
+}
+
+.exp{
+	text-align: center;
+	color:#FFFF00;
+	background-image: url("Kickassimg/exp.png");
+	background-size: 120px;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-family: 'Righteous', cursive;
+	width: 450px;
+	float: right;
+	padding: 5px;
+	margin-top: 25px;
+margin-left: 50px;
+	 -ms-transform: rotate(-3deg); 
+    -webkit-transform: rotate(-3deg); 
+    transform: rotate(-3deg);
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.centre{
+	text-align: center;
+	color:#FFFF00;
+	background-size: 180px;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-family: 'Righteous', cursive;
+	width: 620px;
+	float: right;
+	padding: 5px;
+	margin-top: 20px;
+	 -ms-transform: rotate(-3deg); 
+    -webkit-transform: rotate(-3deg); 
+    transform: rotate(-3deg);
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.for{
+	text-align: center;
+	color:#FFFF00;
+	background-image: url("Kickassimg/form.png");
+	background-size: 300px;
+	background-repeat: no-repeat;
+	background-position: right -30px;
+	font-family: 'Righteous', cursive;
+	width: 770px;
+	float: right;
+	padding: 5px;
+	margin-top: 20px;
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.scotchg {
+    position:absolute;
+	float: left;
+	margin-left: -45px;
+	margin-top: 8px;
+	 -ms-transform: rotate(-50deg); 
+    -webkit-transform: rotate(-50deg); 
+    transform: rotate(-50deg);
+}
+.scotchd {
+	float: right;
+	margin-right: -50px;
+	margin-top: -20px;
+	 -ms-transform: rotate(70deg); 
+    -webkit-transform: rotate(70deg); 
+    transform: rotate(70deg);
+}
+
+

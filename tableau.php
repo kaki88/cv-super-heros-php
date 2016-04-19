@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+</head>
+
+
+<?php
+$url = 'classe-simploniens.xml';
+$xml = simplexml_load_file($url);
+?>
+
+<table border="1">
+<tr>
+<td class="titre">STAGIAIRE</td><td  class="titre">AGE</td>
+</tr>
+
+
+<?php
+date_default_timezone_set("UTC"); 
+$datej=date("Y-m-d");
+$date1=date_create("$datej");
+$t = [];
+foreach ($xml as $i)
+{
+$diffconvert = $i->date_naissance;
+$date2=date_create($diffconvert);
+$diffe=date_diff($date1,$date2);
+$years = $diffe->y;
+$a = $i->nom." ".$i->prenom;
+$b = $years." ans";
+$t[$a] = $b;
+}
+asort($t);
+foreach($t as $key => $value){
+	echo "<tr><td class='tab'>".$key."</td>
+<td class='tab'> ".$value."  </td></tr>" ;
+}
+?>
+
+
+</table>
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.titre {
+font-family: Righteous;
+text-align: center;
+border:1px solid black; background-color: #70BD13; border-radius: 5px;
+text-align:center; 
+font-weight: bold;
+font-size: 17px;
+height: 25px;
+padding: 3px;
+}
+.tab {
+text-align: center;
+border:1px solid black; background-color: #DCDCDC; border-radius: 2px;
+text-align:center; 
+font-weight: bold;
+font-size: 15px;
+height: 25px;
+padding: 3px;
+}
+</style>
+
